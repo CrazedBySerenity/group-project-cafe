@@ -1,0 +1,42 @@
+.landing-page__container {
+    background: url("../images/tea-splash.jpg") no-repeat center fixed;
+    background-color: black;
+
+    min-height: 1600px;
+    background-size: cover;
+}
+
+.nav-bar__container {
+    margin-top: 10px;
+}
+
+.nav-bar__links {
+
+}
+
+.nav-bar__container ul {
+    display: flex;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar__container ul li{
+    display: inline;
+
+
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+
+    margin-right: 1.5em;
+}
+
+.nav-bar__container a {
+    text-decoration: none;
+    color: #14F25D;
+}
