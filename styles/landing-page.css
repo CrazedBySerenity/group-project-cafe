@@ -1,17 +1,14 @@
 .landing-page__container {
-    background: url("../images/tea-splash.jpg") no-repeat center fixed;
+    background: url("../images/tea-high-contrast.png") no-repeat center fixed;
     background-color: black;
 
-    min-height: 1600px;
+    width: 100%;
+    height: 100vh;
     background-size: cover;
 }
 
 .nav-bar__container {
-    margin-top: 10px;
-}
-
-.nav-bar__links {
-
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-bar__container ul {
@@ -25,7 +22,7 @@
     padding: 0;
 }
 
-.nav-bar__container ul li{
+.nav-links {
     display: inline;
 
 
@@ -34,9 +31,25 @@
     font-size: 30px;
 
     margin-right: 1.5em;
-}
 
-.nav-bar__container a {
     text-decoration: none;
     color: #14F25D;
+}
+
+.nav-bar__links {
+    opacity: 100%;
+}
+
+.nav-links--no-margins {
+    margin-right: 0px;
+}
+
+.landing-page__header {
+    text-decoration: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 84px;
+    font-weight: 600;
+
+    color: #14F25D;
+    text-align: center;
 }
