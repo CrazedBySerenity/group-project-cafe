@@ -1,0 +1,30 @@
+.all-site {
+    display: flex;
+    background-color: black;
+    height: 1500px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    width: 1200px;
+
+}
+
+.header-text {
+    display: flex;
+    height: auto;
+    width: 1200px;
+    color: #14f25d;
+    justify-content: center;
+}
+
+.container_gallery {
+    height: 250px;
+    width: 2000px;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    font-size: 15px;
+}
