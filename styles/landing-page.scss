@@ -1,5 +1,5 @@
 @use 'colors-and-fonts' as style;
-
+@use 'nav-and-footer';
 
 .landing-page {
 
@@ -45,80 +45,5 @@
         color: style.$main-color;
 
         align-self: baseline;
-    }
-}
-
-.nav {
-    &-bar {
-        &__container {
-            padding-top: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-        
-            text-align: center;
-        }
-
-        &__links {
-            display: inline-flex;
-            flex-wrap: wrap;
-
-            width: 50%;
-        
-            justify-content: space-around;
-        
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            opacity: 100%;
-        }
-    }
-
-    &-link {
-
-        display: inline;
-
-        text-decoration: none;
-        font-family: style.$sec-font;
-        font-size: 30px;
-    
-        color: style.$main-color;
-    
-        border-style: solid;
-        border-color: style.$main-color;
-        border-radius: 5%;
-        padding: 4px;
-
-        &__card {
-            margin-bottom: 40px;
-        }
-
-        &__card:hover {
-            transform: scale(1.2);
-        }
-        
-        &--no-margins {
-            margin-right: 0px;
-        }
-    }
-}
-
-
-
-.footer {
-    &__container {
-        margin-top: auto;
-
-        padding-top: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-
-    &__nav-bar__container {
-        padding-top: 0px;
-        padding-bottom: 20px;
-            
-        text-align: center;
-    }
-
-    &__nav-link {
-        border: none;
     }
 }
