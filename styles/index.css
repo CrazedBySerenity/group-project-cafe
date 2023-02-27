@@ -1,30 +1,36 @@
-.all-site {
-    display: flex;
-    background-color: black;
-    height: 1500px;
-    width: auto;
-}
-
-.header {
-    display: flex;
-    height: 50px;
-    width: 1200px;
-
-}
-
-.header-text {
-    display: flex;
-    height: auto;
-    width: 1200px;
-    color: #14f25d;
+.topic_gallery {
+    display: block;
     justify-content: center;
+    text-align: center;
 }
+
 
 .container_gallery {
     height: 250px;
-    width: 2000px;
+    max-width: 1400px;
     display: flex;
-    background-color: grey;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     font-size: 15px;
+}
+
+#green_1:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
+    
+}
+
+#green_2:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
+}
+
+#green_3:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
+}
+
+#green_4:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
 }
