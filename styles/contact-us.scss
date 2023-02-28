@@ -46,3 +46,25 @@ main {
     border-radius: 5%;
 
 }
+
+.input-field {
+    height: 40px;
+}
+
+.text-area {
+    max-height: 150px;
+    height: 100%;
+
+}
+
+.input-field, .text-area {
+    display: flex;
+    align-self: center;
+    max-width: 420px;
+    width: 100%;
+    background-color: gray;
+    border: 4px solid style.$main-color;
+    margin-top: 20px;
+    color: style.$main-color;
+    border-radius: 5px;
+}
