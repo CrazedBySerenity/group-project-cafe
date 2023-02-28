@@ -15,3 +15,20 @@
     }
 
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    font-family: style.$main-font;
+}
+
+.main {
+
+    &__container {
+        display: flex;
+    justify-content: space-evenly;
+    max-width: 1257px;
+    width: 100%;
+    min-height: 780px;
+    }
+}
