@@ -47,6 +47,16 @@ main {
 
 }
 
+.form-text {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    color: style.$main-color;
+    max-width: 350px;
+    width: 100%;
+
+}
+
 .input-field {
     height: 40px;
 }
@@ -67,4 +77,9 @@ main {
     margin-top: 20px;
     color: style.$main-color;
     border-radius: 5px;
+}
+
+.input-field::placeholder, .text-area::placeholder {
+	color: style.$main-color;
+
 }
