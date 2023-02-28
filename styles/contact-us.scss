@@ -32,3 +32,17 @@ main {
     min-height: 780px;
     }
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    max-width: 750px;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    background-color: black;
+    border: 4px solid style.$main-color;
+    border-radius: 5%;
+
+}
