@@ -1,8 +1,6 @@
 @use 'colors-and-fonts' as style;
-@use 'nav-and-footer';
 
 .contact-us {
-
     &__container {
         display: flex;
     flex-direction: column;
@@ -11,25 +9,23 @@
     background-color: black;
 
     width: 100%;
-    height: 100vh;
     }
 
 }
 
-main {
+.main {
+
     display: flex;
     justify-content: center;
     font-family: style.$main-font;
-}
-
-.main {
 
     &__container {
         display: flex;
-    justify-content: space-evenly;
-    max-width: 1257px;
-    width: 100%;
-    min-height: 780px;
+        justify-content: space-evenly;
+        max-width: 1257px;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 
@@ -42,19 +38,21 @@ main {
     justify-content: center;
     align-self: center;
     background-color: black;
-    border: 4px solid style.$main-color;
+    border: 4px solid style.$sec-color;
     border-radius: 5%;
 
+    font-family: style.$sec-font;
+    color: style.$sec-color;
 }
 
-.form-text {
-    display: flex;
+.form-header {
     align-self: center;
     text-align: center;
-    color: style.$main-color;
-    max-width: 350px;
-    width: 100%;
 
+    font-size: 24px;
+    color: style.$sec-color;
+
+    width: 100%;
 }
 
 .input-field {
@@ -73,15 +71,18 @@ main {
     max-width: 420px;
     width: 100%;
     background-color: gray;
+
+    color: black;
+
     border: 4px solid style.$main-color;
-    margin-top: 20px;
-    color: style.$main-color;
     border-radius: 5px;
+    border-color: style.$main-color;
+
+    margin-top: 20px;
 }
 
 .input-field::placeholder, .text-area::placeholder {
-	color: style.$main-color;
-
+	color: style.$sec-color;
 }
 
 .btn {
@@ -89,7 +90,9 @@ main {
     width: 180px;
     height: 50px;
     background-color: black;
-    color: style.$main-color;
+
+    font-family: style.$sec-font;
+    color: style.$sec-color;
     border: 4px solid style.$main-color;
     border-radius: 5%;
     margin-top: 20px;

@@ -4,7 +4,7 @@
 .landing-page {
 
     &__container {
-            display: flex;
+    display: flex;
     flex-direction: column;
 
     background: url("../images/tea-high-contrast.png") no-repeat center fixed;
@@ -35,7 +35,7 @@
         color: style.$main-color;
         text-align: center;
 
-        margin-top: 0px;
+        margin: 0px;
     }
 
     &__title-text {

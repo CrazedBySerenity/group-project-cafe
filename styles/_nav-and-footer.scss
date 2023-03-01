@@ -16,6 +16,7 @@
             width: 50%;
         
             justify-content: space-around;
+            align-content: center;
         
             list-style-type: none;
             margin: 0;
@@ -32,12 +33,12 @@
         font-family: style.$sec-font;
         font-size: 30px;
     
-        color: style.$main-color;
+        color: white;
     
-        border-style: solid;
-        border-color: style.$main-color;
-        border-radius: 5%;
-        padding: 4px;
+        // border-style: solid;
+        // border-color: style.$main-color;
+        // border-radius: 5%;
+        // padding: 4px;
 
         &__card {
             margin-bottom: 40px;
@@ -65,12 +66,9 @@
 
     &__nav-bar__container {
         padding-top: 0px;
-        padding-bottom: 20px;
+        display:flex;
+        justify-content: center;
+        align-content: center;
             
-        text-align: center;
-    }
-
-    &__nav-link {
-        border: none;
     }
 }
