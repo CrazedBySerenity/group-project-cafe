@@ -1,0 +1,51 @@
+@use 'colors-and-fonts' as style;
+
+.gallery {
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+    &__header {
+        font-family: style.$main-font;
+        font-size: 48px;
+        font-weight: 600;
+        color: style.$main-color;
+    }
+
+    &__text {
+        font-family: style.$main-font;
+        font-size: 18px;
+        font-weight: 600;
+        color: style.$sec-color;
+    }
+
+    &__container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+
+        margin-bottom: 40px;
+    }
+}
+
+#green_1:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
+    
+}
+
+#green_2:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
+}
+
+#green_3:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
+}
+
+#green_4:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
+}

@@ -6,9 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika+Negative:wght@400;600&display=swap" rel="stylesheet">
+    <title>Green tea Café</title>
 </head>
 <body>
-   <a href="pages/landing-page.html">Landing page</a> 
+    <div class="page-container">
+        <div class="landing-page__container">
+            <!--Logo-->
+            <nav class="nav-bar__container">
+                <ul class="nav-bar__links">
+                    <li class="nav-link__card"><a class="nav-link" href="#">Start</a></li>
+                    <li class="nav-link__card"><a class="nav-link" href="#">Gallery</a></li>
+                    <li class="nav-link__card"><a class="nav-link" href="#">About us</a></li>
+                    <li class="nav-link__card"><a class="nav-link nav-link--no-margins" href="#">Contact us</a></li>
+                </ul>
+            </nav>
+            <section class="landing-page__header-section">
+                <div class="landing-page__header-container">
+                    <h1 class="landing-page__header">
+                        Green tea café
+                    </h1>
+                    <p class="landing-page__title-text">Good for body, soul and wallet</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="gallery">
+            <div>
+                <h2 class="gallery__header">THROUGH OUR EYES</h2>
+                <p class="gallery__text">With great products comes even greater responsibility. When we call ourselves organic, we mean it.<br>
+                    All of our leaves and herbs are local and we transport it without making any damage to the planet.</p>
+            </div>
+            <div class="gallery__container">
+                <img src="images/green_1.jpg" alt="Sandwich" width="250" height="250" id="green_1">
+                <img src="images/green_2.jpg" alt="breakfast" width="250" height="250" id="green_2">
+                <img src="images/green_3.jpeg" alt="coffee" width="250" height="250" id="green_3">
+                <img src="images/green_4.jpg" alt="pancakes" width="250" height="250" id="green_4">
+            </div>
+        </section>
+
+        <div class="contact-us__container">
+            <section class="main">
+                <div class="main__container">
+                    <form class="form">
+                        <div class="form-header">
+                            <p>Fill in your information and we will contact you! </p>
+                        </div>
+                        <input type="text" name="name" id="name" class="input-field" placeholder="Your Name">
+                        <input type="email" name="email" id="email" class="input-field" placeholder="Your Email" required> 
+                        <textarea name="message" id="message" cols="30" rows="10" class="text-area" placeholder="Your message" required></textarea>
+                        <button  type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </section>
+            <footer class="footer__container">
+                <nav class="footer__nav-bar__container">
+                    <ul class="nav-bar__links">
+                        <li class="nav-link__card"><a class="nav-link footer__nav-link" href="#">Start</a></li>
+                        <li class="nav-link__card"><a class="nav-link footer__nav-link" href="#">Gallery</a></li>
+                        <li class="nav-link__card"><a class="nav-link footer__nav-link" href="#">About us</a></li>
+                        <li class="nav-link__card nav-link--no-margins"><a class="nav-link footer__nav-link" href="#">Contact us</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
