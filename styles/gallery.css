@@ -1,0 +1,36 @@
+.topic_gallery {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.container_gallery {
+    height: 250px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+
+#green_1:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
+    
+}
+
+#green_2:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
+}
+
+#green_3:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
+}
+
+#green_4:hover {
+    border: 5px solid #14F25D;
+    transform: scale(1.2);
+}
